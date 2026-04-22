@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Large data and generated outputs
+WSI_PSA/
+full_sample_PSA/
+full_mask_PSA/
+mask_PSA_Positive/
+dataset_size56_PSA/
+test_set/
+mask_slides/
+generated_result/
+checkpoints*/
+lightning_logs/
+
+# Model and feature artifacts
+*.ckpt
+*.pth
+*.pt
+*.h5ad
+*.p
+cluster_0_data.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

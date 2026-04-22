@@ -1,0 +1,25 @@
+# Install a CUDA/CPU-specific torch build first if needed:
+# https://pytorch.org/get-started/locally/
+torch
+torchvision
+
+pytorch-lightning
+lightly
+
+numpy
+pandas
+scikit-learn
+umap-learn
+anndata
+
+opencv-python
+Pillow
+matplotlib
+tqdm
+scikit-image
+
+fil-finder
+astropy
+spams-bin
+
+-e ./stainlib
